@@ -1,0 +1,67 @@
+body {background-image: url(https://image.freepik.com/free-vector/beach-cartoon-illustration_1196-552.jpg);
+      background-position: center; background-size: cover;
+      font-family: 'Bagel Fat One';
+      padding-bottom: 300px;}
+
+header{font-family: 'Bagel Fat One', cursive; text-align: center; padding-bottom: 30px; font-size: 45px; color: aliceblue;}
+header p{font-family: 'Dongle', sans-serif; margin-top: -40px;}
+
+h1{ background-image: linear-gradient(120deg, #f64409 30%, #30da4f 45%,yellow 60%); /* Define your gradient colors */
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari */
+    color: transparent; /* Make the text transparent */}
+
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .cd {
+    animation: spin 2s linear infinite;
+    transform-origin: center; /* Set the rotation origin to the center of the element */
+    width: 110px;
+  }
+
+  
+
+  .playlist{display: flex; margin-left: 80px; padding-bottom: 30px; }
+  .set{padding-right: 30px; position: relative;}
+  .album-cover {position: absolute; top:0px; left: -40px;; width: 100px; height:110px; transition: opacity 0.15s;}
+  .album-cover:hover{opacity: 0.74; cursor: pointer; box-shadow: 1px 8px 12px rgba(110, 111, 102, 0.5);;}
+  .album-cover:active{opacity: 1;}
+
+  .playlist p{font-family: 'Dongle', sans-serif; font-size: 40px; margin-top: -10px;}
+  .playlist h2{padding-bottom: 0; margin-bottom: 0; color: rgb(0, 0, 0);background-image: linear-gradient(90deg, #f64409 ,yellow, #30da4f,rgb(64, 19, 243)) ; /* Define your gradient colors */
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari */
+    color: transparent;}
+
+  .songs{background-color: rgba(245, 240, 240, 0.3); border-radius: 20px; margin-left: 50px; margin-right: 50px; padding-top:30px}
+
+.footer p{font-family: 'Dongle', sans-serif; text-align: center; font-size: 45px; font-weight: 700; width:60%; margin: auto; margin-top: 120px;
+    background-image: linear-gradient(120deg, #f64409 30%, #30da4f 45%,rgb(64, 19, 243) 80%); /* Define your gradient colors */
+    background-clip: text;
+    -webkit-background-clip: text; /* For Safari */
+    color: transparent; margin-bottom: 45px;} 
+
+form{display: flex; justify-content: center; align-items: center; margin-top: 0px;}
+input{margin-left: 10px; margin-bottom: 0; padding-bottom: 0; height: 40px;
+      border: 0;}
+label{font-size: 60px; font-weight: 200; background-image: linear-gradient(90deg, #f64409 ,yellow, #30da4f,rgb(64, 19, 243)) ; /* Define your gradient colors */
+  background-clip: text;
+  -webkit-background-clip: text; /* For Safari */
+  color: transparent;;
+      margin-bottom: 20px;
+    }
+.form{display: flex; flex-direction: column;}
+.submit{margin-top: -32px; background-color: rgb(252, 238, 196);
+       transition: background-color 0.15s; height: 43px;
+       text-align: center; font-family: dongle; font-size: 32px;}
+.submit:hover{background-color: rgb(220, 186, 142);}
+.submit:active{background-color: rgb(184, 144, 91); color: white; border: 1px solid rgb(111, 77, 17);}
+.text{text-align: center; font-family: dongle; font-size: 32px;}
